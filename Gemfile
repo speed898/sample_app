@@ -6,13 +6,14 @@ gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'spork', '0.8.4'	
 
 group :development do
-  gem 'rspec-rails', '2.3.0'
+  gem 'rspec-rails', '2.4.1'
 end
 
 group :test do
-  gem 'rspec', '2.3.0'
+  gem 'rspec', '2.4.0'
   gem 'webrat', '0.7.1'
 end
 
